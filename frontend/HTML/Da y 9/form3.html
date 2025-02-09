@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Complex Form </h1>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="date">D.O.B:</label>
+            <input type="date" id="date" name="date">
+            <label for="gender">Gender:</label>
+            <label for="male">Gender:</label>
+            <input type="radio" id="male" name="male">
+            <label for="female">Female </label>
+            <input type="radio" id="female" name="female">
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="US">United State</option>
+                <option value="America">America</option>
+                <option value="India">India</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="street">Street:</label>
+            <input type="text" id="street" name="street">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+            <label for="code">Zipcode:</label>
+            <input type="number" id="code" name="code">
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="textarea">Comment:</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I agree to the terms and services</label>
+        </fieldset>
+        <br/>
+        <input type="submit" id="button" value="Submit">
+    </fieldset>
+</body>
+</html>

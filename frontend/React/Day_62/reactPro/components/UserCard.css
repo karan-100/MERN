@@ -1,0 +1,22 @@
+.user-container{
+    background-color:blue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+#user-img{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    
+}
+
+p{
+    font-size:0.7rem;
+}

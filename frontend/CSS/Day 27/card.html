@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            overflow-x: none;
+            overflow-y: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            width: 300px;
+            height: 475px;
+            background-color: azure;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+        }
+        .box img{
+            height: 30%;
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .box h2{
+
+        }
+
+        .box p{
+            text-align: center;
+        }
+        
+
+        .box .prize{
+            height: 40px;
+            width: 80%;
+            border-radius: 5px;
+            background-color: #7ba9f7;
+            background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        .box .prize img{
+            height: 30px;
+            width: 30px;
+        }
+        .box button{
+            color: azure;
+            width: 80%;
+            height: 8%;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="icon.jpg" alt="image">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptatum totam vero dolorum facilis dolor!</p>
+            <div class="prize"> 
+                <img src="music.png" alt="music">
+                <pre><p>Annual plan 
+99.9/year
+                </p></pre>
+                <a href="#">change</a>
+            
+            </div>
+            <button>Proceed to payment</button>
+            <div>
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

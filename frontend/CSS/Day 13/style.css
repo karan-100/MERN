@@ -1,0 +1,24 @@
+
+/* Element seleector */
+p{
+    color: brown;
+}
+/* ID selector */
+#abc{
+    background-color: green;
+}
+
+/* Class selector */
+.paraClass{
+    background-color: yellow;
+}
+
+/* Group selector */
+p,article{
+    width: 500px;
+}
+
+/* p ki paraclass */
+p.paraClass{
+    background-color: blueviolet;
+}

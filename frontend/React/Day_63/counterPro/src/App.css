@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:150px;
+  background-color:blue;
+}
+
+.container{
+  border-radius:20px;
+  background-color:white;
+}
