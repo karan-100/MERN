@@ -1,3 +1,4 @@
+const e = require('express');
 const express = require('express');
 const { default: mongoose } = require('mongoose');
 
@@ -12,4 +13,5 @@ async function connDB(){
     }
 }
 
-app.listen(3000, connDB);
+
+app.listen(5000, connDB);  
